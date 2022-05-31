@@ -1,0 +1,29 @@
+body
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+figure
+{
+    border: 2px solid green;
+    width: 250px;
+    align-items: baseline;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+figure:hover
+{
+    box-shadow: 0 0 10px darkred;
+}
+figure img{
+    border-radius: 10px;
+}
+figure figcaption
+{
+    color: green;
+    padding: 10px;
+}
